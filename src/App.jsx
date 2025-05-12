@@ -19,7 +19,7 @@ function App() {
               <ul>
                   {films.map((film, index) =>(
                     <li
-                     className="list-group item"
+                     className="list-group-item d-flex justify-content-between align-items-center"
                      key={index}
                     >
                       {film.title}
