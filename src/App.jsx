@@ -17,14 +17,14 @@ function App() {
           <div className='col-6'>
             <div className="list-group">
               <ul>
-                  {films.map((film, index) =>{
+                  {films.map((film, index) =>(
                     <li
                      className="list-group item"
                      key={index}
                     >
                       {film.title}
                     </li>
-                  })}
+                  ))}
               </ul>
             </div>
           </div>
